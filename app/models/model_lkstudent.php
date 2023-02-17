@@ -2,7 +2,13 @@
 class Model_Lkstudent extends Model{
     public function get_data()
     {
-        return $_SESSION['user_id'];
+        $user_id = $_SESSION['user_id'];
+
+        $conn = mysqli_connect('localhost', 'root', '', 'necodewars');
+        $query = "SELECT * FROM users WHERE id = 1";
+        $result = mysqli_query($conn,$query);
+
+        return mysqli_fetch_assoc($result);
     }
 
     public function logout(){

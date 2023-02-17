@@ -5,6 +5,7 @@ class Model {
         header('Location: http://necodewars'.$url);
         die();
     }
+
     public function get_data(){
     }
 }

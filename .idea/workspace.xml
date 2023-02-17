@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9239c7bd-d4ed-42d5-b500-4d356a4334bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/models/model_task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model_lkstudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model_lkstudent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model_lkteacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model_lkteacher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/lkstudent_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/lkstudent_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/lkteacher_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/lkteacher_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/newtask_view.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mdk1/auth/auth-1/1-1.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mini-project(reg+log+adm)/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mini-project(reg+log+adm)/index.php" afterDir="false" />
     </list>
@@ -28,24 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/OSPanel/domains/testAPI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\NeCodeWars\app" />
@@ -67,7 +78,8 @@
       <workItem from="1675935672436" duration="646000" />
       <workItem from="1676207641871" duration="11765000" />
       <workItem from="1676275156943" duration="21861000" />
-      <workItem from="1676345341632" duration="438000" />
+      <workItem from="1676345341632" duration="11999000" />
+      <workItem from="1676434450559" duration="709000" />
     </task>
     <servers />
   </component>
