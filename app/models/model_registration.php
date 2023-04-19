@@ -10,18 +10,28 @@ class Model_Registration extends Model{
         $login = $_POST['login'];
         $password = $_POST['password'];
         $repeat_password = $_POST['repeat_password'];
-        $admin = $_POST['admin'];
+        $teacher = $_POST['teacher_code'];
+        $group = $_POST['group'];
 
-        $sql = "INSERT INTO users
-        (name,surname,login,password,admin_status)
-        VALUES 
-        ('$name', '$surname', '$login', '$password', '$admin')";
-
-        if($password == $repeat_password){
-            mysqli_query($conn, $sql);
-            return 'Success';
+        if($teacher == 123){
+            $sql = "INSERT INTO users
+            (`name`,`surname`,`group`,`login`,`password`,`admin_status`)
+            VALUES 
+            ('$name', '$surname', NULL, '$login', '$password', '1')";
         } else {
-            return 'Неправильный повторный ввод пароля';
+            $sql = "INSERT INTO users
+            (`name`,`surname`,`group`,`login`,`password`,`admin_status`)
+            VALUES 
+            ('$name', '$surname', '$group', '$login', '$password', '0')";
+        }
+        
+        if(!empty($name && $surname && $login && $password && $repeat_password && $teacher && $group)){
+            if($password == $repeat_password){
+                mysqli_query($conn, $sql);
+                return 'Success';
+            } else {
+                return 'Неправильный повторный ввод пароля';
+            }
         }
     }
 }

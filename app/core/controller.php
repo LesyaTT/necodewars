@@ -12,6 +12,12 @@ class Controller {
 	
 	function action_index()
 	{
-        session_start();
 	}
+
+    function logout() {
+        session_destroy();
+        setcookie('user_id', '', -2147483647, '/');
+        setcookie('admin_status', '', -2147483647, '/');
+        return header('Location: http://necodewars/login');
+    }
 }

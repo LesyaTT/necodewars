@@ -7,23 +7,22 @@ class Model_Login extends Model{
         $login = $_POST['login'];
         $password = $_POST['password'];
 
-        $query = "SELECT * FROM users WHERE login='$login'";
+        $query = "SELECT * FROM users WHERE `login`='$login'";
         $result = mysqli_query($conn,$query);
 
-        if(!$result){
-            return 'Неверный логин';
-        } else {
-            $row = mysqli_fetch_assoc($result);
-            if($password == $row['password']){
-                session_start();
-                $_SESSION['user_id'] = $row['id'];
-                if($row['admin_status'] == 1) {
-                    return $this->redirect('/lkteacher');
-                } else {
-                    return $this->redirect('/lkstudent');
-                }
+        if(isset($_POST['submit'])){
+            if(!$result){
+                return 'Неверный логин';
             } else {
-                return 'Неверный пароль';
+                $row = mysqli_fetch_assoc($result);
+                if($password == $row['password']){
+                    setcookie("user_id", $row['id']);
+                    setcookie("user_group", $row['group']);
+                    setcookie("admin_status", $row['admin_status']);
+                    $this->redirect('/lk');
+                } else {
+                    return 'Неверный пароль';
+                }
             }
         }
     }

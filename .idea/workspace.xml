@@ -5,18 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9239c7bd-d4ed-42d5-b500-4d356a4334bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/model_task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/controller_allResults.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/controller_allStudents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/controller_journal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/controller_listTasks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/controller_lk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/controller_task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/controller_taskResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/model_allResults.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/model_allStudents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/model_journal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/model_listTasks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/model_lk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/model_taskResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/allResults_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/allStudents_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/journalTeacher_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/journal_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/listTasks_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/taskResult_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f39775-4e2e-40df-a1aa-b4a33fd62322/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/controller_lkstudent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/controller_lkteacher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/core/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/route.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/core/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/model_lkstudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model_lkstudent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/model_lkteacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model_lkteacher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model_lkstudent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model_lkteacher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model_registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model_registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model_task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model_task.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/lkstudent_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/lkstudent_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/lkteacher_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/lkteacher_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/newtask_view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mdk1/auth/auth-1/1-1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mini-project(reg+log+adm)/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../mini-project(reg+log+adm)/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/registration_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/registration_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/task_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/task_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/template_view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +74,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/OSPanel/domains/testAPI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OSPanel/domains/serunchik&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\NeCodeWars\app" />
@@ -80,6 +121,30 @@
       <workItem from="1676275156943" duration="21861000" />
       <workItem from="1676345341632" duration="11999000" />
       <workItem from="1676434450559" duration="709000" />
+      <workItem from="1676883662645" duration="17563000" />
+      <workItem from="1677147409720" duration="5438000" />
+      <workItem from="1677155190445" duration="6914000" />
+      <workItem from="1677244333137" duration="1275000" />
+      <workItem from="1677399552656" duration="1212000" />
+      <workItem from="1677908074165" duration="144000" />
+      <workItem from="1678709055792" duration="71000" />
+      <workItem from="1678735365208" duration="1631000" />
+      <workItem from="1678798588118" duration="17597000" />
+      <workItem from="1678874748624" duration="15693000" />
+      <workItem from="1679005984735" duration="1279000" />
+      <workItem from="1679067738305" duration="840000" />
+      <workItem from="1679205520066" duration="6684000" />
+      <workItem from="1679821211132" duration="29209000" />
+      <workItem from="1679912399974" duration="21069000" />
+      <workItem from="1679944501641" duration="4395000" />
+      <workItem from="1679990737942" duration="4976000" />
+      <workItem from="1680156674751" duration="14147000" />
+      <workItem from="1680527886344" duration="10228000" />
+      <workItem from="1681388919322" duration="1572000" />
+      <workItem from="1681485914660" duration="18729000" />
+      <workItem from="1681576873347" duration="11751000" />
+      <workItem from="1681647268165" duration="27787000" />
+      <workItem from="1681921013568" duration="9130000" />
     </task>
     <servers />
   </component>
@@ -96,5 +161,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

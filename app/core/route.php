@@ -7,8 +7,10 @@ class Route
 		// контроллер и действие по умолчанию
 		$controller_name = 'login';
 		$action_name = 'index';
-		
-		$routes = explode('/', $_SERVER['REQUEST_URI']);
+
+        $getParams = explode('?', $_SERVER['REQUEST_URI']);
+		$routes = explode('/', $getParams[0]);
+        $params = $getParams[1];
 
 		// получаем имя контроллера
 		if ( !empty($routes[1]) )
